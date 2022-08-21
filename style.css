@@ -1,0 +1,72 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    background:  #cdadff;
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    font-size: 1em;
+    padding: 0em 0.5em;
+}
+button{
+    font-size: 1em;
+    padding: 0.5em;
+}
+.container{
+    background: rgb(56, 52, 52);
+    color: white;
+    max-width: 90%;
+    border-radius: 0.1em;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3em;
+   margin: 0.5em;
+}
+.title__heading{
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 0.5em;
+    background:  rgb(56, 52, 52);
+    color: aliceblue;
+    font-size: 1em;
+    /* box-shadow: ; */
+}
+.timer-class{
+    background: rgb(56, 52, 52);
+    color: white;
+    max-width: 90%;
+    border-radius: 0.1em;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5em;
+    position: relative;
+
+}
+.input-timer-details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.input-box{
+    margin: 0.5em;
+}

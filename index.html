@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stopwatch</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Mono:wght@700&display=swap"
+        rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="title__heading">
+            <h1>Configure your Time</h1>
+        </div>
+        <div class="container">
+            <div class="input-timer-details">
+                <div class="input-box">
+                    <!-- <label for="Main Timer">Main Timer</label> -->
+                    <input type="number" class="inputField" id="main" placeholder="Main Timer (sec)">
+                </div>
+                <div class="input-box">
+                    <!-- <label for="Rest Timer">Rest Timer</label> -->
+                    <input type="number" class="inputField" id="rest" placeholder="Rest Timer (sec)">
+                </div>
+                <div class="input-box">
+                    <!-- <label for="Number of times">Number of times</label> -->
+                    <input type="number" class="inputField" id="times" placeholder="Number">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="add">Add</button>
+                <button id="start">Start</button>
+            </div>
+        </div>
+    
+        <div class="timer-class" id ="timer">
+            <div>Main Timer</div>
+            <div>00:00</div>
+        </div>
+    
+    </div>
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+
+</html>
